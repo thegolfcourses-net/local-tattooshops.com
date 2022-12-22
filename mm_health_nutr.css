@@ -1,0 +1,175 @@
+/* Global Styles */
+
+body {
+	margin:0px;
+	background-color:#DFF9F6;
+	}
+
+/*color behind header*/	
+td {
+	font:11px Arial, Helvetica, sans-serif;
+	color:#000000;
+	word-wrap: none;
+	}
+
+/*text in body*/	
+a {
+	color: #000066;
+	}
+
+/*inside hover of strip text*/	
+a:hover {
+	color: #808C5E;
+	}
+
+/* ID Styles */
+
+/*top strip*/
+#headerText { 
+	background-color:#98A9DF;
+	}
+
+/*background  color 2nd row of header stuff*/
+#subHeaderText {
+	background-color:#98A9DF;
+	}
+
+/*line in between top and mid band*/
+#spacer {
+	background-color:#5e5e5e;
+	}
+
+/*middle band*/
+#navbar {
+	background-color:#808C5E;
+	}
+
+/*list of states on the left, 1st color is the border between the rows*/
+#navigation td {
+	border-bottom: 1px solid #F4FFE4; background-color: #DDEFBD;
+	}
+
+/*pre-hover text below*/	
+#navigation a {
+	font: bold 11px Arial, Helvetica, sans-serif;
+	color: #000066;
+	line-height:16px;
+	letter-spacing:0.1em;
+	text-decoration: none;
+	display:block;
+	padding-top: 4px;
+	padding-right: 2px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	}
+
+/*background for top of left navigation header*/
+#navHeader {
+	background-color: #808C5E;	
+}
+
+/* background changes on lower left list*/
+#navigation a:hover {
+	background: #FFFFCC;
+	color:#882c39;
+	}
+
+/*This is for the text at the very top, ex. "bars-pubs.com"*/		
+#logo 	{
+	font:36px Arial, Helvetica, sans-serif;
+	color: #000000;
+	letter-spacing:.2em;
+	line-height:30px;
+	}
+
+/*Used for subheader text right at the top underneath the domain name*/
+#tagline 	{	
+	font:16px Arial, Helvetica, sans-serif;
+	color: #000000;
+	background-color: #96AADF;
+	letter-spacing:.2em;
+	}
+
+/*not used*/
+#monthformat {
+	border-bottom: 1px dashed #882c39;
+	}
+		
+#dateformat {
+	font:11px Arial, Helvetica, sans-serif;
+	color: #000000;
+	letter-spacing:.2em;
+	}
+	
+#dateformat a {
+	font:11px Arial, Helvetica, sans-serif;
+	color: #000066;
+	font-weight:bold;
+	letter-spacing:.1em;
+	text-decoration:none;
+	}
+	
+#dateformat a:hover {
+	color: #FFFFCC;
+	letter-spacing:.1em;
+	}
+	
+/* Class Styles */
+
+/* Any other text anywhere in the body not overridden by a new definition  */	
+.bodyText {
+	font:18px Arial, Helvetica, sans-serif;
+	color:#000000;
+	line-height:20px;
+	margin-top:0px;
+	}
+.cityNames {
+	font:14px Arial, Helvetica, sans-serif;
+	color:#721724;
+	line-height:20px;
+	margin-top:0px;
+}
+/* Text inside header of left navigation column */
+.navheadertext{
+	font: 18px Arial, Helvetica, sans-serif;
+	color: #DCDFDF;
+	line-height:21px;
+	letter-spacing:.15em;
+	} 
+	
+.pageName{
+	font: 18px Arial, Helvetica, sans-serif;
+	color: #000000;
+	line-height:21px;
+	letter-spacing:.15em;
+	}
+	
+.subHeader {
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color: #993300;
+	line-height:22px;
+	letter-spacing:.2em;
+	}
+
+.quote {
+	font: 20px Arial, Helvetica, sans-serif;
+	color: #759DA1;
+	line-height:30px;
+	}
+	
+.smallText {
+	font: 10px Arial, Helvetica, sans-serif;
+	color: #666666;
+	line-height: 22px;
+	}
+	
+.navText {
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #003366;
+	line-height:16px;
+	letter-spacing:.1em;
+	text-decoration: none;
+	}
+	
+.title {  font-family: Verdana; font-size: 16px; color: #000000; font-weight: bold; text-decoration: none}
+.mapText { font-family: Verdana; font-size: 14px; color: #000000; font-weight: normal; text-decoration: none}
